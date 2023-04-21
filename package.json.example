@@ -1,0 +1,18 @@
+{
+  "private": "true",
+  "dependencies": {
+    "husky": "8.0.3",
+    "lint-staged": "13.2.1"
+  },
+  "scripts": {
+    "install": "yarn --cwd ./client && yarn --cwd ./server",
+    "unmaintained": "node checkUnmaintained.js"
+  },
+  "devDependencies": {
+    "@testing-library/cypress": "9.0.0",
+    "cypress": "12.10.0",
+    "cypress-mochawesome-reporter": "3.3.0",
+    "eslint-plugin-cypress": "2.13.2"
+  }
+}
+
